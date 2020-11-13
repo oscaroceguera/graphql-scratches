@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -r esm index.js"
+  },
+  "keywords": [],
+  "author": "oscar",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.19.0",
+    "axios": "^0.21.0",
+    "esm": "^3.2.25",
+    "graphql": "^15.4.0",
+    "nodemon": "^2.0.6"
+  }
+}
