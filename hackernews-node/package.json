@@ -1,0 +1,21 @@
+{
+  "name": "hackernews-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -r esm index.js"
+  },
+  "keywords": [],
+  "author": "oscar",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "2.11.0",
+    "esm": "^3.2.25",
+    "graphql-yoga": "^1.18.3",
+    "nodemon": "^2.0.6"
+  },
+  "devDependencies": {
+    "@prisma/cli": "2.11.0"
+  }
+}
